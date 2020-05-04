@@ -84,7 +84,7 @@ Rails.application.configure do
 
   config.action_cable.allowed_request_origins = [
     # Local address we use for our standalone client
-    'file://',
+    'https://actioncable-message-clientrn81.herokuapp.com',
   ]
 
   # Inserts middleware to perform automatic connection switching.
